@@ -4,7 +4,7 @@ from exempl import exempl
 
 class TestLoadData(unittest.TestCase):
     def test_load_one_goods(self):
-        self.assertEqual(exempl(), None)
+        self.assertEqual(exempl(), 0)
 
 
 if __name__ == "__main__":
